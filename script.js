@@ -92,7 +92,7 @@ let currentQuestion = 0;
 let score = 0;
 let selectedQuestions = [];
 let timer;
-let timeLeft = 120; // 2 minutos
+let timeLeft = 30; // 30 segundos
 
 const loginDiv = document.getElementById('login');
 const gameDiv = document.getElementById('game');
