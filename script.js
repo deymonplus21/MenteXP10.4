@@ -128,7 +128,7 @@ function startGame() {
     selectedQuestions = shuffled.slice(0, 10); // 10 preguntas aleatorias sin repetir
     currentQuestion = 0;
     score = 0;
-    timeLeft = 120;
+    timeLeft = 30;
     startTimer();
     showQuestion();
 }
