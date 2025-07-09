@@ -92,7 +92,7 @@ let currentQuestion = 0;
 let score = 0;
 let selectedQuestions = [];
 let timer;
-let timeLeft = 30; // 30 segundos
+let timeLeft = 30;
 
 const loginDiv = document.getElementById('login');
 const gameDiv = document.getElementById('game');
@@ -125,7 +125,7 @@ startBtn.onclick = () => {
 function startGame() {
     selectedQuestions = [];
     let shuffled = questions.sort(() => Math.random() - 0.5);
-    selectedQuestions = shuffled.slice(0, 10); // 10 preguntas aleatorias sin repetir
+    selectedQuestions = shuffled.slice(0, 10);
     currentQuestion = 0;
     score = 0;
     timeLeft = 30;
